@@ -14,12 +14,12 @@ int main(){
 	int a,b;
 	std::cin >> a >> b;
 
-	std::cout << a << " " << b << " nwd: " << nwd(a,b) << std::endl;
+	//std::cout << a << " " << b << " nwd: " << nwd(a,b) << std::endl;
 	if(a <= 0 || b <= 0) {
 		std::cout << "Liczby musza byc dodatnie" << std::endl;
 		return 1;
 	}
-	std::cout << a << " " << b << std::endl;
+	std::cout << a << " " << b << " nwd: " << nwd(a,b) << std::endl;
 
 	return 0;
 }
